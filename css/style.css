@@ -1,0 +1,170 @@
+body{
+    background-color: #000;
+    color: #86E5FF;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+h1{
+    color: #FFC93C;
+    font-size: 5.655rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+   
+    
+}
+
+h3{
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    border: dotted #8ccbcb 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+   
+}
+
+p {
+    color: #66bfbf;
+    line-height: 2;
+}
+
+
+
+.top-container {
+    background-color: white
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.my-photo{
+    width: 20%;
+    height: auto;
+}
+
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+
+.brain-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.leader-img{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.middle-container {
+    background-color: white;
+    margin: 100px 0  0;
+    padding-top: 100px;
+}
+
+.bottom-container {
+    background-color: #0081C9;
+    height: 110px;
+    color: antiquewhite;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer-link{
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+
+}
+
+a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 10px 20px;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover {
+    box-shadow: inset 100px 0 100px 0 #54b3d6;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.attributions {
+    font-size: xx-small;
+    color: #54b3d6;
+}
+
+.par{
+    color: #54b3d6;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    top: 600px;
+}
+
+.btn {
+
+    font-family: 'Montserrat', sans-serif;
+    color: #3cb0fd;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    font-family: 'Montserrat', sans-serif;
+    background: #3cb0fd;
+    text-decoration: none;
+}
+
+.contact-me{
+    padding-bottom: 25px;
+}
+
+.contact-message{
+    width: 30%;
+    margin: 40px auto 60px auto;
+    margin-bottom: 40px;
+}
