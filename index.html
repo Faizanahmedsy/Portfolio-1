@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Headsection is the part which is red by browsers-all types of links are included here   -->
+ 
 <head>
-  <!-- UTF-8( Unicode Transformation Format) is the characterset which includes (almost) all the characters, punctuations, and symbols in the world. -->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- This is the title of the text which appears as a tab name in browsers -->
-    <title>Faizan</title>
-    <!-- This is a link to Css file, Css is should be linked at the top so that browser reads it first and styles the other elements prior  -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- A favicon is the image that is displayed on the tab name- you can make your own favicon on favicon.com -->
+    
+    <title>Faizanahmed</title>
     <link rel="icon" href="favicon.ico?v=2">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    
     <!-- This is the link to Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Oswald&family=Raleway&family=Sacramento&display=swap" rel="stylesheet">
 
 </head>
 
-<!-- The body section is what is displayed to the user as a website
-->A website is just an HTML Document  -->
-<body>
-  <!-- I have divided this website into 3 containers using <div>tag
-  ->The <div> tag defines a division or a section in an HTML document.
-     The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
-     The <div> tag is easily styled by using the class or id attribute.       
-     Any sort of content can be put inside the <div> tag!       
-     Note: By default, browsers always place a line break before and after the <div> element.
 
-      A class is a identifer(name) of a tag - We can use same class name for many tags
-      An id is also an identifer(name) of a tag - It is a unique name and we cannot name same id to more than one tag -->
+<body>
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav mx-auto">
+        <a class="nav-link" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#">Pricing</a>
+      </div>
+    </div>
+  </div>
+</nav>
 
      <div class="top-container">
       <!-- img is used for image - src means sourse of image - alt- means alternative text if image is not loaded than this text is science -->
-        <img class="top-cloud" src="images/cloud.png" alt="">
-
-         <h1>Im Faizan</h1>
+ 
+         <h1 class="name">Im Faizan</h1>
          <h2>An aspiring web developer</h2>
-         <img class="bottom-cloud" src="images/cloud.png" alt="">
-         <img src="images/mountain.png" alt="">
+  
 
      </div>
 
@@ -48,19 +56,165 @@
     <p class="intro">Ambitious computer science student</p>
   </div>
   <hr>
-  <div class="skills">
-    <h2>My Skills.</h2>
-    <div class="skill-row">
-      <img class="brain-img" src="images/artificial-intelligence.png" alt="Brain icons created by Freepik - Flaticon">
-      <h3>Lorem & Ipsum</h3>
-      <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-    </div>
-    <div class="skill-row">
-      <img class="leader-img" src="images/leadership.png" alt="">
-      <h3>Lorem Ipsum Dolor</h3>
-      <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+
+
+  <!-- Skill Highlights -->
+
+<div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-bottom">Skill Highlights</h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Java</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">JavaScript</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">C</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Object Orianted Programming</h3>
+          <p>Paragraph of text beneath.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">HTML</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">CSS</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Bootstrap 5</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">C++(Basic)</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
     </div>
   </div>
+
+
+  <div class="container px-4 py-5 projects-con">
+    <h2 class="pb-2 border-bottom">My Projects</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+      <div class="col d-flex flex-column align-items-start gap-2">
+        <h3 class="fw-bold">Left-aligned title explaining these awesome features</h3>
+        <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="btn btn-primary btn-lg">Primary button</a>
+      </div>
+
+      <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            </div>
+            <h4 class="fw-semibold mb-0">Featured title</h4>
+            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+
+            </div>
+            <h4 class="fw-semibold mb-0">Featured title</h4>
+            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+
+            </div>
+            <h4 class="fw-semibold mb-0">Featured title</h4>
+            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            </div>
+            <h4 class="fw-semibold mb-0">Featured title</h4>
+            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container px-4 py-5 courses-con" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Hanging icons</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+        </div>
+        <div>
+          <h3 class="fs-2">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <a href="#" class="btn btn-primary">
+            Primary button
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+        </div>
+        <div>
+          <h3 class="fs-2">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <a href="#" class="btn btn-primary">
+            Primary button
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+        </div>
+        <div>
+          <h3 class="fs-2">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <a href="#" class="btn btn-primary">
+            Primary button
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <hr>
   <div class="contact-me" <a src="contact.html" >
     <h2>Get In Touch</h2>
@@ -69,6 +223,9 @@
     <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
   </div>
 </div>
+
+
+<!-- My projects -->
 
 
 <div class="bottom-container">
@@ -82,6 +239,6 @@
 
     
 
-   
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
