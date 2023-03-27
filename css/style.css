@@ -1,5 +1,5 @@
 body{
-    background-color: #000;
+    background-color: darkblue;
     color: #86E5FF;
     margin: 0;
     text-align: center;
@@ -7,18 +7,20 @@ body{
 
 }
 
-h1{
+.name{
     color: #FFC93C;
-    font-size: 5.655rem;
+    font-size: 6rem;
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-weight: bold;
 }
 
 h2{
     color: #66bfbf;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.7rem;
-   
+    text-align: center;
     
 }
 
@@ -40,10 +42,15 @@ p {
     line-height: 2;
 }
 
+.active{
+    color: #8ccbcb;
+}
 
-
+.nav-link{
+    color: #86E5FF;
+}
 .top-container {
-    background-color: white
+    /* background-color: white */
     position: relative;
     padding-top: 100px;
 
@@ -64,23 +71,10 @@ p {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    
-}
-
-.brain-img{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-}
-
-.leader-img{
-    width: 25%;
-    float: right;
-    margin-right: 30px;
 }
 
 .middle-container {
-    background-color: white;
+    /* background-color: lightblue; */
     margin: 100px 0  0;
     padding-top: 100px;
 }
@@ -91,6 +85,15 @@ p {
     color: antiquewhite;
     padding-top: 20px;
     text-align: center;
+}
+
+
+.projects-con{
+    text-align: left;
+}
+
+.courses-con{
+    text-align: left;
 }
 
 .footer-link{
@@ -130,18 +133,7 @@ a:visited {
 .par{
     color: #54b3d6;
 }
-.top-cloud{
-    position: absolute;
-    right: 300px;
-    top: 50px;
 
-}
-
-.bottom-cloud{
-    position: absolute;
-    left: 300px;
-    top: 600px;
-}
 
 .btn {
 
